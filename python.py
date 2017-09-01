@@ -37,12 +37,12 @@ print matches.group(0)
 
 
 # Simple client/server API:
-# --- there are a handful of options here.  the builtin framework (SimpleSocket) is okay, but a little verbose
-### SimpleSocket : http://www.bogotobogo.com/python/python_network_programming_socketserver_framework_for_network_servers.php
-### Easier External APIs (download required, no preference from us)
-###### HTTP Requests : http://docs.python-requests.org/en/master/
-###### Flask  = http://flask.pocoo.org/ , https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
 
+# There are a handful of options here.  the builtin framework (SimpleSocket) is okay, but a little verbose
+### SimpleSocket : http://www.bogotobogo.com/python/python_network_programming_socketserver_framework_for_network_servers.php
+
+# A simpler way may be to use Flask.  : http://flask.pocoo.org/ , https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+# We provide an example client/server : https://github.com/ActionIQ/assignment-help/tree/master/python
 
 # Other helpful docs
 # JSON: https://docs.python.org/2/library/json.html
